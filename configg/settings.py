@@ -37,9 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # other 
 
     'django_seed',
     'rest_framework',
+    'drf_yasg',
+
+    # my apps
     'main.apps.MainConfig',
     'api.apps.ApiConfig',
 ]
